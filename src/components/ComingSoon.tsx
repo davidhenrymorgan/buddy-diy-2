@@ -40,12 +40,12 @@ export function ComingSoon() {
           {offerings.map((offering, index) => (
             <div
               key={index}
-              className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-brand-red transition-colors duration-200"
+              className="bg-white border-2 border-gray-300 rounded-lg p-6 shadow-sm hover:border-brand-red hover:shadow-md transition-all duration-200"
             >
               <h3 className="font-display text-xl sm:text-2xl font-bold mb-3 text-foreground">
                 {offering.title}
               </h3>
-              <p className="text-base text-foreground/70 leading-relaxed">
+              <p className="text-base text-foreground/90 leading-relaxed">
                 {offering.description}
               </p>
             </div>
@@ -53,7 +53,7 @@ export function ComingSoon() {
         </div>
 
         <div className="text-center">
-          <p className="text-lg sm:text-xl font-semibold text-foreground/80 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl font-semibold text-foreground/95 max-w-2xl mx-auto">
             Have other ideas? Want to tell me what you need most? That's
             exactly why I'm building this list.{" "}
             <span className="text-brand-red font-bold">Your feedback matters.</span>
