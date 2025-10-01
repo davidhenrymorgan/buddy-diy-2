@@ -55,7 +55,7 @@ export const BuddysDIYLogo: React.FC<BuddysDIYLogoProps> = ({
         textAnchor="middle"
         letterSpacing="4"
       >
-        BUDDY'S
+        BUDDY&apos;S
       </text>
 
       {/* DIY Group */}
